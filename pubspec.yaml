@@ -1,7 +1,7 @@
 name: sixvalley_delivery_boy
 description: A new Flutter application.
 publish_to: 'none'
-version: 1.0.2+3
+version: 1.0.0+1
 
 environment:
   sdk: '>=3.2.0 <4.0.0'

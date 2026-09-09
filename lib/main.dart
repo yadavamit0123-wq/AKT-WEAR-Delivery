@@ -35,13 +35,17 @@ Future<void> main() async {
   if(Firebase.apps.isEmpty) {
     if(Platform.isAndroid) {
       try{
-        await Firebase.initializeApp(options: const FirebaseOptions(
-          apiKey: "current_key here",
-          projectId: "project_id here",
-          messagingSenderId: "project_number here",
-          appId: "mobilesdk_app_id here"
-        ));
-      } finally{
+        await Firebase.initializeApp(
+          name: 'akt-wear-delivery',
+          options: const FirebaseOptions(
+            apiKey: "AIzaSyAMSKPQkW0Eic6a2d6y-9PHC6t9fDe_f_k",
+            projectId: "akt-wear",
+            messagingSenderId: "775574758023",
+            appId: "1:775574758023:android:e49158dba84d77f2d78e22",
+            storageBucket: "akt-wear.appspot.com",
+          )
+        );
+      } catch(_) {
         await Firebase.initializeApp();
       }
     }else{

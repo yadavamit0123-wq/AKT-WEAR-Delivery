@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sixamtech.delivery">
+    package="com.pt.aktweardelivery">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -24,12 +24,12 @@
     </queries>
    <application
        android:name="${applicationName}"
-       android:label="6valley delivery"
+       android:label="AKT Wear Delivery"
        android:requestLegacyExternalStorage="true"
        android:usesCleartextTraffic="false"
        android:icon="@mipmap/ic_launcher"
        android:extractNativeLibs="true">
-       <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_MAP_KEY_HERE"/>
+       <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM"/>
 
        <provider
            android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
@@ -81,7 +81,7 @@
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
        <service
-           android:name="com.sixamtech.delivery.BackgroundService"
+           android:name="com.pt.aktweardelivery.BackgroundService"
            android:enabled="true"
            android:exported="false" />
         <meta-data

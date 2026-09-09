@@ -2,14 +2,14 @@ import 'package:sixvalley_delivery_boy/features/language/domain/models/language_
 import 'images.dart';
 
 class AppConstants {
-  static const String companyName = '6valley';
-  static const String appName = 'Deliveryman';
-  static const bool demo = true;
+  static const String companyName = 'AKT Wear';
+  static const String appName = 'AKT Wear Delivery';
+  static const bool demo = false;
   static const int imageQuality = 100;
-  static const String appVersion = '5.3'; ///flutter SDK : 3.47.0
-  static const String polylineMapKey = 'YOUR_MAP_KEY_HERE';
+  static const String appVersion = '1.0.0'; ///flutter SDK : 3.47.0
+  static const String polylineMapKey = 'AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM';
 
-  static const String baseUrl = 'YOUR_DOMAIN_HERE';
+  static const String baseUrl = 'https://aktwear.com';
 
   static const String profileUri = '/api/v2/delivery-man/info';
   static const String configUri = '/api/v1/config';
