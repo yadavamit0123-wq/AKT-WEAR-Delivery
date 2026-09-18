@@ -6,7 +6,7 @@ class AppConstants {
   static const String appName = 'AKT Wear Delivery';
   static const bool demo = false;
   static const int imageQuality = 100;
-  static const String appVersion = '1.0.0'; ///flutter SDK : 3.47.0
+  static const String appVersion = '2.0.0'; ///flutter SDK : 3.47.0
   static const String polylineMapKey = 'AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM';
 
   static const String baseUrl = 'https://aktwear.com';
